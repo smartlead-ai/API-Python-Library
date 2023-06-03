@@ -5,7 +5,7 @@ Implementation of Smartlead API in Python. Original API documentation can be fou
 ## Quickstart
 1. Download the GitHub repository
 2. Create a folder called "smartlead" in your project's src code directory
-3. Extract the __init__.py file into your smartlead folder
+3. Extract the `__init__.py` file into your smartlead folder
 4. Start using the library!
 ```
 from smartlead import Smartlead
