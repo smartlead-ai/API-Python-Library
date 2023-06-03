@@ -17,7 +17,7 @@ class Smartlead:
         def endpoint(endpoint: str, query_params="") -> str:
             api_endpoint = endpoint if endpoint.startswith(
                 '/') else f"/{endpoint}"
-            api_key_suffix = "?api_key=yourApiKey"
+            api_key_suffix = f"?api_key={Smartlead.api_key}"
             return f"{Smartlead._V1._base_url}{api_endpoint}{api_key_suffix}{query_params}"
 
         class _CampaignsV1():
